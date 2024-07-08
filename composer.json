@@ -21,7 +21,7 @@
     ],
     "require": {
         "php": "^8.0|^8.1|^8.2",
-        "digikraaft/laravel-paystack-webhooks": "^2.1",
+        "digikraaft/laravel-paystack-webhooks": "dev-master",
         "digikraaft/paystack-php": "^2.2",
         "laravel/framework": "^9.0|^10.0|^11.0"
     },
@@ -49,6 +49,12 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ljsharp/laravel-paystack-webhooks.git"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
